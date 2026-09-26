@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Rust (for phase 4)
+target/
+
+# Models: large, and InsightFace's buffalo_l weights are non-commercial only
+*.onnx
+models/
+
+# Biometric data: never commit enrolled faces or embeddings
+enroll/
+*.npy
+*.npz
